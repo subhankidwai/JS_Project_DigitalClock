@@ -58,6 +58,31 @@ h2{
     font-family: 'Baumans', cursive;
 }
 
+#wake:hover{
+    cursor: pointer;
+    border-color: #3D087B;
+    box-shadow: 2px 2px 4px;
+}
+
+#lunch:hover{
+    cursor: pointer;
+    border-color: #3D087B;
+    box-shadow: 2px 2px 4px;
+}
+
+#nap:hover{
+    cursor: pointer;
+    border-color: #3D087B;
+    box-shadow: 2px 2px 4px;
+}
+
+#night:hover{
+    cursor: pointer;
+    border-color: #3D087B;
+    box-shadow: 2px 2px 4px;
+}
+
+
 button{
     width: 265px;
     height: 45px;
@@ -68,6 +93,12 @@ button{
     border-width: 0;
     background-image: linear-gradient(to right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
 }
+
+button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to left, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+}
+
 
 .block{
     position: relative;
@@ -105,33 +136,34 @@ button{
     height: 55px;
     width: 75px;
     padding: 8px;
-    padding-top: 25px;
+    padding-top: 23px;
     padding-right: 14px;
     font-weight: 500;
-    font-size: larger;
+    font-size: 25px;
     color: #3D087B;
 }
 
 .hour{
     height: 70px;
-    width: 60px;
-    background-color: #F6E2FF;
+    width: 300px;
+    /* background-color: #F6E2FF; */
     font-family: 'Orbitron', sans-serif;
-    padding-top: 13px;
+    padding-top: 16px;
     box-sizing: border-box;
     color: #8A11BF;
     border-radius: 3px;
+    font-size: 30px;
 }
 
-.colon{
+/* .colon{
     padding: 10px;
     padding-top: 20px;
     font-weight: bolder;
     font-size: larger;
     color: #3D087B;
-}
+} */
 
-.AM{
+/* .AM{
     margin-left: 20px;
     height: 70px;
     width: 60px;
@@ -142,7 +174,7 @@ button{
     padding-top: 20px;
     font-size: 24px;
     border-radius: 3px;
-}
+} */
 
 .task h2{
     margin-top: 45px;
